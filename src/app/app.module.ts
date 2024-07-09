@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { FlightSearchComponent } from './core/flight-search/flight-search.component';
 import { HomeComponent } from './core/home/home.component';
 import { ResultsComponent } from './core/results/results.component';
+import { SharedComponent } from './shared/shared.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FlightSearchComponent,
     HomeComponent,
-    ResultsComponent
+    ResultsComponent,
+    SharedComponent
   ],
   imports: [
     BrowserModule,
