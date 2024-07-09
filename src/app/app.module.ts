@@ -7,6 +7,7 @@ import { FlightSearchComponent } from './core/flight-search/flight-search.compon
 import { HomeComponent } from './core/home/home.component';
 import { ResultsComponent } from './core/results/results.component';
 import { SharedComponent } from './shared/shared.component';
+import { CheckoutComponent } from './core/checkout/checkout.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SharedComponent } from './shared/shared.component';
     FlightSearchComponent,
     HomeComponent,
     ResultsComponent,
-    SharedComponent
+    SharedComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,
