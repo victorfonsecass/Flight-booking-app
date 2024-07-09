@@ -8,6 +8,7 @@ import { HomeComponent } from './core/home/home.component';
 import { ResultsComponent } from './core/results/results.component';
 import { SharedComponent } from './shared/shared.component';
 import { CheckoutComponent } from './core/checkout/checkout.component';
+import { PassangerDetailsComponent } from './core/passanger-details/passanger-details.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CheckoutComponent } from './core/checkout/checkout.component';
     HomeComponent,
     ResultsComponent,
     SharedComponent,
-    CheckoutComponent
+    CheckoutComponent,
+    PassangerDetailsComponent
   ],
   imports: [
     BrowserModule,
