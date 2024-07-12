@@ -6,8 +6,15 @@ import { Component, OnInit} from '@angular/core';
   styleUrl: './flight-search.component.scss'
 })
 export class FlightSearchComponent implements OnInit {
+  city!: any;
 
   constructor(){}
+
   ngOnInit(): void {
   }
+  search(){
+      console.log('aqui==',this.city);
+      const emitValue = {city: this.city};
+      //this.whenSearched.emit(emitValue);
+    }
 }
