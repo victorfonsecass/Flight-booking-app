@@ -1,20 +1,19 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CoreComponent } from './core/core.component';
-import { FlightSearchComponent } from './core/flight-search/flight-search.component';
-import { HomeComponent } from './core/home/home.component';
+import { SearchCoreComponent } from './core/search/search-core.component';
+import { HomeCoreComponent } from './core/home/home-core.component';
 
 const routes: Routes = [
-  { path: '',
-    redirectTo: 'home'
+  { path: '', component: HomeCoreComponent
   },
   {
     path: '',
-    component: HomeComponent
+    component: HomeCoreComponent
   },
   {
     path: 'flight-search',
-    component: FlightSearchComponent
+    component: SearchCoreComponent
   },
 ];
 

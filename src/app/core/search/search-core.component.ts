@@ -1,11 +1,11 @@
 import { Component, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'app-flight-search',
-  templateUrl: './flight-search.component.html',
-  styleUrl: './flight-search.component.scss'
+  selector: 'app-search-core',
+  templateUrl: './search-core.component.html',
+  styleUrl: './search-core.component.scss'
 })
-export class FlightSearchComponent implements OnInit {
+export class SearchCoreComponent implements OnInit {
   city!: any;
 
   constructor(){}
