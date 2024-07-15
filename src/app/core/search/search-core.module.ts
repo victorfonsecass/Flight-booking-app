@@ -1,15 +1,20 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { FlightSearchComponent } from './flight-search.component';
+import { SearchCoreComponent } from './search-core.component';
+
 
 @NgModule({
   declarations: [
-    FlightSearchComponent
+    SearchCoreComponent
   ],
   imports: [
     BrowserModule,
+
   ],
   providers: [],
+  exports: [
+    SearchCoreComponent
+  ]
 })
 export class FlightSearchComponentModule { }
